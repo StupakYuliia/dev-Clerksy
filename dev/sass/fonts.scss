@@ -1,7 +1,14 @@
 @font-face {
-    font-family: 'Gilroy-Regular';
-    src: url('./assets/fonts/Gilroy-Regular.woff') format('woff');
-    font-weight: normal; 
+    font-family: 'NotoSans';
+    src: url('../assets/fonts/NotoSans-Regular.ttf') format('TrueType');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NotoSans';
+    src: url('../assets/fonts/NotoSans-SemiBold.ttf') format('TrueType');
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }

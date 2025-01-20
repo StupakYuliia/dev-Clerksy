@@ -1,0 +1,37 @@
+.hr {
+    padding: 120px 0;
+
+	&__wrapper {
+		display: flex;
+		align-items: center;
+    	justify-content: center;
+		gap: 98px;
+
+		&-text {
+			max-width: 406px;
+
+			h2 {
+				margin-bottom: 27px;
+			}
+		}
+
+		&-partner {
+			margin-top: 114px;
+
+			h2 {
+				margin-bottom: 66px;
+				justify-content: center;
+    			display: flex;
+			}
+
+			&-img {
+				justify-content: center;
+				display: flex;
+
+				img {
+					margin: 0 43px;
+				}
+			}
+		}
+	}
+}

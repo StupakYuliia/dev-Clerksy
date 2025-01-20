@@ -1,0 +1,22 @@
+.banner {
+	background-color: $brand-green;
+	.container {
+		display: flex;
+	}
+
+	&__content {
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+
+		h2 {
+			color: $brand-white;
+			line-height: 65.3px;
+			margin-bottom: 17px;
+		}
+
+		p {
+			color: $brand-white;
+		}
+	}
+}

@@ -1,0 +1,30 @@
+.hr-production {
+    padding: 66px 0 120px;
+    background-color: $brand-green;
+
+	h2 {
+		color: $brand-white;
+		margin-bottom: 74px;
+		justify-content: center;
+		display: flex;
+	}
+
+	&__content {
+		display: flex;
+		justify-content: center;
+
+		&-quality {
+			padding: 0 48px;
+
+			img {
+				display: flex;
+				margin: 0 auto 28px;
+			}
+
+			p {
+				text-align: center;
+				color: $brand-white;
+			}
+		}
+	}
+}

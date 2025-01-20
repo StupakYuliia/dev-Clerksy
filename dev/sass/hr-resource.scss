@@ -1,0 +1,29 @@
+.hr-resource {
+    padding: 120px 0 122px;
+
+	.container {
+		display: flex;
+		justify-content: center;
+	}
+
+	&__text {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			max-width: 394px;
+			margin-right: 98px;
+
+			h2 {
+				margin-bottom: 20px;
+			}
+
+			p {
+				margin-bottom: 20px;
+			}
+
+			.btn {
+				max-width: 192px;
+				border: 1px solid $btn-bg;
+			}
+	}
+}

@@ -1,0 +1,18 @@
+.employees {
+    padding: 120px 0 136px;
+    background-color: $grey-bg;
+
+	&__text {
+		text-align: center;
+		margin: 0 auto;
+		max-width: 794px;
+
+		h2 {
+			margin-bottom: 30px;
+		}
+
+		p {
+			margin-bottom: 2px;
+		}
+	}
+}

@@ -1,0 +1,81 @@
+.clerksy-price {
+    padding: 120px 0 124px;
+	background-color: #F2EFE6;
+
+	&__text {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 18px;
+
+		h2 {
+			margin-bottom: 26px;
+		}
+	}
+
+	&__three-steps {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 46px;
+	}
+
+	&__step {
+		max-width: 262px;
+		text-align: center;
+
+		p {
+			margin-bottom: 13px;
+		}
+
+		&_first {
+			position: relative;
+
+			::after {
+				content: "";
+    			position: absolute;
+    			top: 50%;
+    			right: -104px;
+    			background: url(./assets/img/img-top-arrow.svg);
+    			width: 75px;
+    			height: 36px;
+    			transform: translate(0, -50%);
+			}
+		}
+
+		&_second {
+			position: relative;
+
+			::after {
+				content: "";
+    			position: absolute;
+    			top: 50%;
+    			right: -132px;
+    			width: 75px;
+    			height: 36px;
+    			background: url(./assets/img/img-bottom-arrow.svg);
+    			transform: translate(-50%, 0);
+			}
+		}
+
+		&_third {
+			position: relative;
+
+			::after {
+				content: "";
+    			position: absolute;
+    			top: -38px;
+    			right: -20px;
+    			width: 286px;
+    			height: 186px;
+    			background: url(./assets/img/img-stroke.svg) no-repeat;
+			}
+		}
+	}
+
+	.btn {
+		max-width: 244px;
+		display: flex;
+		margin: 0 auto;
+		border: 1px solid $btn-bg;
+	}
+}
