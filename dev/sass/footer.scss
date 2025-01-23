@@ -1,4 +1,53 @@
 footer{
+	padding: 20px 0 0;
+	.container {
+		.footer-top {
+			display: flex;
+			justify-content: space-between;
+			padding: 24px 0;
+			border-bottom: 1px solid $grey-bg;
 
+			.footer-social {
+				a {
+					margin-right: 14px;
+					text-decoration: none;
+
+					&:last-child {
+						margin-right: 0;
+					}
+
+					.icon-svg {
+						width: 30px;
+						height: 28px;
+					}
+				}
+			}
+		}
+
+		.footer-bottom {
+			display: flex;
+			padding: 24px 0;
+
+			p {
+				font-size: 14px;
+				line-height: 21px;
+			}
+
+			nav {
+				margin-left: auto;
+
+				a {
+					text-decoration: none;
+					font-size: 14px;
+					color: $btn-bg;
+					margin-right: 14px;
+
+					&:last-child {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
 }
 

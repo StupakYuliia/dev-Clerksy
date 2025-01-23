@@ -1,0 +1,54 @@
+.clerksy-subscription {
+    padding: 60px 0;
+	background-color: $grey-bg;
+
+	.container {
+		display: flex;
+	}
+
+	&__text {
+		h2 {
+			margin-bottom: 26px;
+		}
+	}
+
+
+
+	&__input {
+
+		form {
+			margin-bottom: 10px;
+			position: relative;
+
+			input[type="text"] {
+				border: 1px solid #F2EFE6;
+    			border-radius: 255px;
+    			background-color: #fff;
+    			height: 50px;
+    			max-width: 552px;
+    			width: 100%;
+    			padding: 15px;
+    			box-sizing: border-box;
+
+			}
+
+			.btn {
+				max-width: 112px;
+    		border: 1px solid #198C36;
+    		position: absolute;
+    		top: 0;
+    		right: 0;
+			}
+		}
+
+		p {
+			font-size: 14px;
+			max-width: 524px;
+			line-height: 21px;
+
+			span {
+				color: $btn-bg;
+			}
+		}
+	}
+}
